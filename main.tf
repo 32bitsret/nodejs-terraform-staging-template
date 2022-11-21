@@ -115,10 +115,6 @@ resource "aws_ecs_task_definition" "my_service_task_defination" {
               "value": "${var.PORT}"
           },
           {
-              "name": "SOCKET",
-              "value": "${var.SOCKET}"
-          },
-          {
               "name": "DATABASE_PORT",
               "value": "${var.DATABASE_PORT}"
           },
@@ -141,26 +137,6 @@ resource "aws_ecs_task_definition" "my_service_task_defination" {
           {
               "name": "SECRET",
               "value": "${var.SECRET}"
-          },
-          {
-              "name": "REFRESHSECRET",
-              "value": "${var.REFRESHSECRET}"
-          },
-          {
-              "name": "SENDGRID_API_KEY",
-              "value": "${var.SENDGRID_API_KEY}"
-          },
-          {
-              "name": "CLD_CLOUD_NAME",
-              "value": "${var.CLD_CLOUD_NAME}"
-          },
-          {
-              "name": "CLD_API_KEY",
-              "value": "${var.CLD_API_KEY}"
-          },
-          {
-              "name": "CLD_API_SECRET",
-              "value": "${var.CLD_API_SECRET}"
           },
           {
               "name": "AWS_REGION",
