@@ -55,7 +55,7 @@ variable "DATABASE_PORT" {
 }
 
 variable "DATABASE_HOST" {
-  default = "ec2-3-224-184-9.compute-1.amazonaws.com"
+  default = ""
 }
 
 variable "DATABASE_USER" {
@@ -63,7 +63,7 @@ variable "DATABASE_USER" {
 }
 
 variable "DATABASE_PASSWORD" {
-  default = "14bcd4e34f0f2ba0c565f8a3fe022ffa758e075ed94b3c01f9a693a7a769bac4"
+  default = ""
 }
 
 variable "DATABASE_DB" {
@@ -79,7 +79,7 @@ variable "REFRESHSECRET" {
 }
 
 variable "SENDGRID_API_KEY" { 
-  default = "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"
+  default = ""
 }
 
 variable "CLD_CLOUD_NAME" {
@@ -87,11 +87,11 @@ variable "CLD_CLOUD_NAME" {
 }
 
 variable "CLD_API_KEY" {
-  default = "266853871981238"
+  default = ""
 }
 
 variable "CLD_API_SECRET" {
-  default = "SJLk5gES3TUCV7wa8_60kvcUxxU"
+  default = ""
 }
 
 variable "AWS_REGION" {
@@ -103,7 +103,7 @@ variable "AWS_ACCESS_KEY_ID" {
 }
 
 variable "AWS_SECRET_ACCESS_KEY" {
-  default = "6qBjcRV/T1gnTO0ycoaIVOn4g+PGWkmuzqMwSLvl"
+  default = ""
 }
 
 variable "AWS_PUBLIC_BUCKET_NAME" {
